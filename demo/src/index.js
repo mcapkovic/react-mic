@@ -12,9 +12,9 @@ require('./styles.scss')
 export default class Demo extends Component {
   render() {
     return (
-      <div>
+      <React.StrictMode>
         <AudioRecorder/>
-      </div>
+      </React.StrictMode>
     )
   }
 }
